@@ -1,5 +1,5 @@
 {
-  "name": "sf-logger",
+  "name": "sf-logx",
   "version": "1.0.0",
   "description": "Logger utility using Salesforce as storage",
   "license": "MIT",
