@@ -42,7 +42,7 @@ entries. Its metadata includes:
 
 - **Fields**:
 
-  - `Level__c` (Picklist): Log severity (e.g., DEBUG, INFO, WARN, ERROR).
+  - `level__c` (Picklist): Log severity (e.g., debug, info, warn, error).
   - `Message__c` (Long Text): The log message content.
   - `Stack__c` (Long Text): Stack trace or error details, if applicable.
   - `System__c` (Text): The system or application name generating the log.
