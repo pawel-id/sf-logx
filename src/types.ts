@@ -54,9 +54,9 @@ export function toSfLog(log: BaseLog): BaseSfLog {
   return {
     Level__c: log.level,
     Message__c: log.message.slice(0, 255),
-    Stack__c: log.stack,
-    System__c: log.system,
-    User__c: log.user,
+    Stack__c: log.stack?.slice(0, 32768),
+    System__c: log.system?.slice(0, 255),
+    User__c: log.user?.slice(0, 80),
   }
 }
 
