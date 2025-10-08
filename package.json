@@ -2,6 +2,7 @@
   "name": "sf-logx",
   "version": "1.0.1",
   "description": "Logger utility using Salesforce as storage",
+  "repository": "pawel-id/sf-logx",
   "license": "MIT",
   "author": "Pawel Idczak <pawel.idczak@gmail.com>",
   "type": "module",
