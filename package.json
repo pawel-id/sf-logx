@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "node --env-file=.env.test --import tsx --test src/**/*.test.ts"
   },
   "dependencies": {
